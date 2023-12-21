@@ -1,0 +1,90 @@
+###############################################
+#                                             #
+#      ██▓    ▓█████  ▒█████   ███▄    █      #
+#     ▓██▒    ▓█   ▀ ▒██▒  ██▒ ██ ▀█   █      #
+#     ▒██░    ▒███   ▒██░  ██▒▓██  ▀█ ██▒     #
+#     ▒██░    ▒▓█  ▄ ▒██   ██░▓██▒  ▐▌██▒     #
+#     ░██████▒░▒████▒░ ████▓▒░▒██░   ▓██░     #
+#     ░ ▒░▓  ░░░ ▒░ ░░ ▒░▒░▒░ ░ ▒░   ▒ ▒      #
+#     ░ ░ ▒  ░ ░ ░  ░  ░ ▒ ▒░ ░ ░░   ░ ▒░     #
+#       ░ ░      ░   ░ ░ ░ ▒     ░   ░ ░      #
+#         ░  ░   ░  ░    ░ ░           ░      #
+#                                             #
+###############################################
+#|     This is the function that triggers    |#
+#|   the animation after the terminal opens  |#
+#---------------------------------------------#
+
+openinganim() {
+    clear
+    sleep 0.5
+    cat ~/.anim/frame0.txt
+    sleep 0.30
+    clear
+    cat ~/.anim/frame1.txt
+    sleep 0.2
+    clear
+    cat ~/.anim/frame2.txt
+    sleep 0.30
+    clear
+    cat ~/.anim/frame3.txt
+    sleep 0.30
+    clear     
+    cat ~/.anim/frame4.txt
+    sleep 0.1
+    clear     
+    cat ~/.anim/frame5.txt
+    sleep 0.90
+    clear
+    cat ~/.anim/frame6.txt
+    sleep 0.2
+    clear
+    cat ~/.anim/frame7.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame8.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame9.txt
+    sleep 0.3
+    clear
+    cat ~/.anim/frame10.txt
+    sleep 0.8
+    clear
+    cat ~/.anim/frame11.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame12.txt
+    sleep 0.2
+    clear
+    cat ~/.anim/frame13.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame14.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame15.txt
+    sleep 0.12
+    clear
+    cat ~/.anim/frame16.txt
+    sleep 0.2
+    clear
+    cat ~/.anim/frame17.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame18.txt
+    sleep 0.2
+    clear
+    cat ~/.anim/frame19.txt
+    sleep 0.1
+    clear
+    cat ~/.anim/frame20.txt
+    sleep 0.4
+    clear
+}
+
+openinganim # This line calls the function
+
+# You can change the paths or just create a hidden folder in your home dir called .anim and throw the frames in there
+
+
